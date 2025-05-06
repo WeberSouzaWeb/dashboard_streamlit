@@ -33,12 +33,13 @@ def home():
             # Métricas rápidas (opcional)
             col_met1, col_met2, col_met3 = st.columns(3)
             with col_met1:
-                st.metric(label="Ocupação Atual", value="82%", delta="2% ↗")
+                st.metric(label="Vendidos 2024", value="39065", delta="2% ↗")
             with col_met2:
-                st.metric(label="Faturamento Mensal",
-                          value="R$ 1.2M", delta="5% ↗")
+                st.metric(label="Ocupação 2024",
+                          value="65.08%", delta="10,78% ↙", delta_color="inverse")
             with col_met3:
-                st.metric(label="Usuários Ativos", value="24", delta="1 novo")
+                st.metric(label="Manutenção 2024",
+                          value="5806", delta="31,55% ↗", delta_color="inverse")
 
             # Espaçamento
             st.write("")

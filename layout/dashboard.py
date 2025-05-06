@@ -192,12 +192,14 @@ def dashboard():
             text_auto='.1f',
             labels={'value': 'Percentual (%)', 'variable': 'Categoria'},
             color_discrete_map={
-                'Hospedagem': '#1f77b4',
-                'A&B Incluso': '#ff7f0e',
-                'A&B Extra': '#0019fc',
-                'Lazer': '#d62728',
-                'Eventos': '#9467bd',
-                'Outros': '#ffd900'
+                'Diária': '#88B58C',
+                'Hospedagem': '#8AD89E',
+                'A&B': '#5682C1',
+                'A&B Incluso': '#73A5AE',
+                'A&B Extra': '#C6D5F4',
+                'Lazer': '#FF9460',
+                'Eventos': '#9FB1C5',
+                'Outros': '#FFC715'
             },
         )
 

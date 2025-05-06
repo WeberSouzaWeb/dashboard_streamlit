@@ -1,5 +1,16 @@
-/* Base styling */
-html, body, [class*="css"] {
+/* Base styling
+Diária	#88B58C
+Hospedagem	#8AD89E
+A&B 	#5682C1
+A&B incluso	#73A5AE
+A&B extra	#C6D5F4
+Lazer	 #FF9460
+Eventos	#9FB1C5
+Outros	#FFC715
+*/
+html,
+body,
+[class*="css"] {
     font-family: "Segoe UI", sans-serif;
     background-color: #f8f9fa;
     color: white;
@@ -16,16 +27,19 @@ section[data-testid*="stSidebar"] {
     font-weight: bold;
     color: #bfc207;
 }
+
 [data-testid="stMetricLabel"] {
     color: #777;
 }
+
 /* Plotly Chart Titles - Dynamic Styling */
 /* This will affect all Plotly chart titles */
 .g-html .plotly .main-title {
     font-family: "Segoe UI", sans-serif !important;
     font-size: 1.5rem !important;
     font-weight: 600 !important;
-    color: #002244 !important;  /* Mesma cor dos seus headings */
+    color: #002244 !important;
+    /* Mesma cor dos seus headings */
     text-align: center !important;
     margin-bottom: 0.5rem !important;
 }
@@ -39,7 +53,10 @@ section[data-testid*="stSidebar"] {
 }
 
 /* Headings */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     color: #002244;
 }
 
@@ -59,6 +76,7 @@ footer {
 ::-webkit-scrollbar {
     width: 8px;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #cccccc;
     border-radius: 4px;
