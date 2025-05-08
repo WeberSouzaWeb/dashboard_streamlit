@@ -20,7 +20,7 @@ def dashboard():
         with col_per1:
             with st.expander("Filtros de Categorias", expanded=True):
                 tipo_principal = st.radio(
-                    '', ["Diária", "Receita"], horizontal=True, label_visibility="collapsed")
+                    '', ["Receita", "Diária"], horizontal=True, label_visibility="collapsed")
         with col_per2:
             with st.expander("Indicadores de Correção", expanded=True):
                 indicadores_selecionados = st.multiselect('', options=["Original", "IPCA", "IGPM", "Sal. Min", "Correção Média"],

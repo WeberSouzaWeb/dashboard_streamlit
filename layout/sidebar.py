@@ -34,9 +34,9 @@ def sidebar():
             st.rerun()
 
         # Adicione mais botões conforme necessário
-        if st.button("Dados"):
-            st.session_state.current_page = "Dados"
-            st.rerun()
+        # if st.button("Dados"):
+        #     st.session_state.current_page = "Dados"
+        #     st.rerun()
 
         st.markdown("---")
 

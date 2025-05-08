@@ -69,7 +69,7 @@ def dashOcupacao():
         y=df['Vendido'],
         name='Vendido',
         marker_color='steelblue',
-        offsetgroup=1,  # Mesmo grupo que as empilhadas
+        offsetgroup=2,  # Mesmo grupo que as empilhadas
         base=0  # Começa da base
     ))
 
